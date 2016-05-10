@@ -26,10 +26,11 @@
   },
   "devDependencies": {
     "async": "0.x.x",
-    "should": "1.x.x",
     "lodash": "2.x.x",
     "mocha": "1.x.x",
-    "shortid": "2.0.0"
+    "npm-install-peers": "1.0.1",
+    "shortid": "2.0.0",
+    "should": "1.x.x"
   },
   "directories": {
     "test": "test"
