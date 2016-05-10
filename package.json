@@ -36,6 +36,7 @@
     "test": "test"
   },
   "scripts": {
+    "pretest": "./node_modules/.bin/npm-install-peers",
     "test": "MONGOOSE_TREE_SHORTID=1 ./node_modules/.bin/mocha && MONGOOSE_TREE_SHORTID=0 ./node_modules/.bin/mocha"
   },
   "keywords": [

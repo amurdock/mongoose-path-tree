@@ -193,12 +193,6 @@ carol.level; // equals 3
 
 # Tests
 
-To run the tests install mocha
+To run the tests simply run
 
-    npm install mocha -g
-
-and then run
-
-    mocha
-
-
+    npm test
